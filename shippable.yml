@@ -2,7 +2,7 @@ language: scala
 
 scala:
   - 2.11.2
-  - 2.10.2
+ # - 2.10.2
 
 before_script:
   - export PATH=$PATH:$SHIPPABLE_REPO_DIR
