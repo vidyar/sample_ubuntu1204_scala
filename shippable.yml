@@ -2,7 +2,6 @@ language: scala
 
 scala:
   - 2.11.0
- 
 
 before_script:
   - git --version
@@ -19,3 +18,5 @@ after_script:
   - mv target/scala-2.11/coverage-report/cobertura.xml $PWD/shippable/codecoverage/
   
 archive: true
+
+commit_container: shipci/sample_ubuntu1204_scala
