@@ -1,8 +1,8 @@
 language: scala
 
 scala:
-  - 2.11.2
-  - 2.10.2
+  - 2.11.0
+ 
 
 before_script:
   - export PATH=$PATH:$SHIPPABLE_REPO_DIR
@@ -16,4 +16,5 @@ script:
 after_script:
   - mkdir -p shippable/codecoverage
   - mv target/scala-2.11/coverage-report/cobertura.xml $PWD/shippable/codecoverage/
+  
 archive: true
