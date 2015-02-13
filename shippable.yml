@@ -5,6 +5,7 @@ scala:
  
 
 before_script:
+  - git --version
   - export PATH=$PATH:$SHIPPABLE_REPO_DIR
 
 build_image: shippableimages/ubuntu1204_scala:0.0.2
