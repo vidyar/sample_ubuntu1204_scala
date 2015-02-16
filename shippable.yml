@@ -21,4 +21,4 @@ after_script:
   
 archive: true
 
-commit_container: shipci/sample_ubuntu1204_scala
+#commit_container: shipci/sample_ubuntu1204_scala
