@@ -22,3 +22,7 @@ after_script:
 archive: true
 
 #commit_container: shipci/sample_ubuntu1204_scala
+after_success:
+- echo "success"
+after_failure:
+- echo "failed"
