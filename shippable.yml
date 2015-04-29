@@ -19,7 +19,7 @@ after_script:
   - mkdir -p shippable/codecoverage
   - mv target/scala-2.11/coverage-report/cobertura.xml $PWD/shippable/codecoverage/
   
-archive: true
+#archive: true
 
 #commit_container: shipci/sample_ubuntu1204_scala
 after_success:
